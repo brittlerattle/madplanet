@@ -15,10 +15,19 @@ body {
   height: 844px;
   min-width: 300px;
 }
+#nextBtn{
+  margin-left: 10px;
+  padding-left: 10px;
+}
 
+#prevBtn2{
+  z-index: 5;
+  background-color: #5E9BB2
+}
 .nextQuiz {
   position: relative;
   margin-top: 700px;
+  padding: auto;
 }
 #regForm {
   background-color: #EDEDE6;
@@ -55,7 +64,7 @@ input.invalid {
   display: none;
 }
 .bottombutton {
-  padding-left: 55px;
+  padding-left: 75px;
     padding-top: 400px;
     bottom: 10px;
     align-items: center;
