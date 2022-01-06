@@ -1,30 +1,47 @@
-
- * {
+* {
   box-sizing: border-box;
 }
 
 body {
   background-color: #f1f1f1;
 }
-
-#regForm {
-  background-color: #ffffff;
+.quiz{
+  text-align: center;
+  background-color: #224350;
   margin: 100px auto;
-  font-family: Roboto;
+  font-family: roboto;
   padding: 40px;
-  width: 70%;
+  width: 390px;
+  height: 844px;
+  min-width: 300px;
+}
+
+.nextQuiz {
+  position: relative;
+  margin-top: 700px;
+}
+#regForm {
+  background-color: #EDEDE6;
+  margin: 100px auto;
+  font-family: roboto;
+  padding: 40px;
+  width: 390px;
+  height: 844px;
   min-width: 300px;
 }
 
 h1 {
   text-align: center;  
+  color: #224350
 }
-
+h2 {
+  color: #EDEDE6;
+}
 input {
   padding: 10px;
   width: 100%;
   font-size: 17px;
-  font-family: Roboto;
+  font-family: roboto;
   border: 1px solid #aaaaaa;
 }
 
@@ -37,15 +54,37 @@ input.invalid {
 .tab {
   display: none;
 }
-
+.bottombutton {
+  padding-left: 55px;
+    padding-top: 400px;
+    bottom: 10px;
+    align-items: center;
+}
+a:link, a:visited {
+    background-color: #FBA52D;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: roboto;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #224350;
+  text-decoration: none;
+}
+.onBoardButton {
+    font-size: large;
+    font-weight: 700;
+}
 button {
-  background-color: #04AA6D;
+  background-color: #FBA52D;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
   font-size: 17px;
-  font-family: Roboto;
+  font-family: roboto;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -53,7 +92,7 @@ button:hover {
 }
 
 #prevBtn {
-  background-color: #bbbbbb;
+  background-color: #224350;
 }
 
 /* Make circles that indicate the steps of the form: */
@@ -61,7 +100,7 @@ button:hover {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbbbbb;
+  background-color: #5E9BB2;
   border: none;  
   border-radius: 50%;
   display: inline-block;
@@ -74,5 +113,5 @@ button:hover {
 
 /* Mark the steps that are finished and valid: */
 .step.finish {
-  background-color: #04AA6D;
+  background-color: #224350;
 }
