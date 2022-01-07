@@ -30,7 +30,7 @@ body {
   padding: auto;
 }
 #regForm {
-  background-color: #EDEDE6;
+  background-color: #e9e4d3;
   margin: 100px auto;
   font-family: roboto;
   padding: 40px;
@@ -65,7 +65,7 @@ input.invalid {
 }
 .bottombutton {
   padding-left: 75px;
-    padding-top: 400px;
+    padding-top: 100px;
     bottom: 10px;
     align-items: center;
 }
